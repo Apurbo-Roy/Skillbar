@@ -2,11 +2,12 @@
     font-size: 18px;
     font-family: 'Indie Flower', cursive;
     padding-top: 0.3cm;
+    padding-bottom: 10cm;
     height:1cm;
-    bottom: 0px;
+    bottom: 10cm;
     margin: 0px ;
     background-color: #fff;
-    
+    text-align: center;
 }
 #box{
     font-size: 18px;
