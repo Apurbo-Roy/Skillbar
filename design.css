@@ -1,0 +1,484 @@
+#SkillBox {
+    font-size: 18px;
+    font-family: 'Indie Flower', cursive;
+    padding-top: 0.3cm;
+    height:1cm;
+    bottom: 0px;
+    margin: 0px ;
+    background-color: #fff;
+    
+}
+#box{
+    font-size: 18px;
+    font-family: 'Indie Flower', cursive;
+    padding-top: 1cm;
+    padding-right: center;
+    height:relative;
+    bottom: 0px;
+    margin: 0px ;
+    background-color: #fff;
+    
+
+}
+.SkillBar {
+    width: 100%;
+    height: 20px;
+    bottom: 0px;
+    border-radius: 5px;
+    position: absulate;
+    background:#eeeeee;
+    margin: 37px auto;
+}
+#c {
+    width: 75%;
+    border-radius: 5px;
+    animation: Animate-c 4s;
+    -webkit-animation: Animate-c 4s;
+    -moz-animation: Animate-c 4s;
+    -o-animation: Animate-c 4s;
+    height: 20px;
+    position: absolute;
+    background: linear-gradient(90deg, #5AC8FE 0%,#1affa3 100%);
+}
+@keyframes Animate-c {
+    from {
+    width: 10px;
+}
+to {
+    width: 75%}
+}@-webkit-keyframes Animate-c {
+    from {
+    width: 20px;
+}
+to {
+    width: 75%}
+}@-moz-keyframes Animate-c {
+    from {
+    width: 10px;
+}
+to {
+    width: 75%}
+}@-o-keyframes Animate-c {
+    from {
+    width: 5px;
+}
+to {
+    width: 75%}
+}
+#java {
+    animation: Animate-java 4s;
+    -webkit-animation: Animate-java 4s;
+    -moz-animation: Animate-java 4s;
+    -o-animation: Animate-java 4s;
+    width: 78%;
+  border-radius: 5px;
+    height: 20px;
+    position: absolute;
+     background: linear-gradient(90deg, #5AC8FE 0%, #1affa3 100%);
+}
+@keyframes Animate-java {
+    from {
+    width: 10px;
+}
+to {
+    width: 78%}
+}@-webkit-keyframes Animate-java {
+    from {
+    width: 10px;
+}
+to {
+    width: 78%}
+}@-moz-keyframes Animate-java {
+    from {
+    width: 10px;
+}
+to {
+    width: 78%}
+}@-o-keyframes Animate-java {
+    from {
+    width: 10px;
+}
+to {
+    width: 78%}
+}
+#phy {
+  border-radius: 5px;
+    animation: Animate-phy 4s;
+    -webkit-animation: Animate-phy 4s;
+    -moz-animation: Animate-phy 4s;
+    -o-animation: Animate-phy 4s;
+    width: 65%;
+    height: 20px;
+    position: absolute;
+     background: linear-gradient(90deg, #5AC8FE 0%, #1affa3 100%);
+}
+@keyframes Animate-phy {
+    from {
+    width: 10px;
+}
+to {
+    width: 65%}
+}@-webkit-keyframes Animate-phy {
+    from {
+    width: 10px;
+}
+to {
+    width:65%}
+}@-moz-keyframes Animate-phy {
+    from {
+    width: 10px;
+}
+to {
+    width: 65%}
+}@-o-keyframes Animate-phy {
+    from {
+    width: 10px;
+}
+to {
+    width: 65%}
+}#htm {
+  border-radius: 5px;
+    animation: Animate-htm 4s;
+    -webkit-animation: Animate-htm 4s;
+    -moz-animation: Animate-htm 4s;
+    -o-animation: Animate-htm 4s;
+    width: 80%;
+    height: 20px;
+    position: absolute;
+     background: linear-gradient(90deg, #5AC8FE 0%,#1affa3 100%);
+}
+@keyframes Animate-htm {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+}@-webkit-keyframes Animate-htm {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+}@-moz-keyframes Animate-htm {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+}@-o-keyframes Animate-htm {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+}
+#css {
+  border-radius: 5px;
+    animation: Animate-css 4s;
+    -webkit-animation: Animate-css 4s;
+    -moz-animation: Animate-css 4s;
+    -o-animation: Animate-css 4s;
+    width: 68%;
+    height:20px;
+    position: absolute;
+     background: linear-gradient(90deg, #5AC8FE 0%,#1affa3 100%);
+}
+@keyframes Animate-css {
+    from {
+    width: 10px;
+}
+to {
+    width: 68%}
+}@-webkit-keyframes Animate-css {
+    from {
+    width: 10px;
+}
+to {
+    width: 68%}
+}@-moz-keyframes Animate-css {
+    from {
+    width: 10px;
+}
+to {
+    width: 68%}
+}@-o-keyframes Animate-css {
+    from {
+    width: 10px;
+}
+to {
+    width: 68%}
+}
+
+#Photoshop {
+    width: 65%;
+  border-radius: 5px;
+    animation: Animate-Photoshop 4s;
+    -webkit-animation: Animate-Photoshop 8s;
+    -moz-animation: Animate-Photoshop 4s;
+    -o-animation: Animate-Photoshop 4s;
+    height: 20px;
+    position: absolute;
+    background: linear-gradient(90deg, #5AC8FE 0%, #1affa3 100%);
+}
+@keyframes Animate-Photoshop {
+    from {
+    width: 10px;
+}
+to {
+    width: 65%}
+}@-webkit-keyframes Animate-Photoshop {
+    from {
+    width: 20px;
+}
+to {
+    width: 65%}
+}@-moz-keyframes Animate-Photoshop {
+    from {
+    width: 10px;
+}
+to {
+    width: 65%}
+}@-o-keyframes Animate-Photoshop {
+    from {
+    width: 5px;
+}
+to {
+    width: 65%}
+}
+#Illustrator {
+    animation: Animate-Illustrator 5s;
+    -webkit-animation: Animate-Illustrator 8s;
+    -moz-animation: Animate-Illustrator 5s;
+    -o-animation: Animate-Illustrator 5s;
+    width: 82%;
+  border-radius: 5px;
+    height: 20px;
+    position: absolute;
+     background: linear-gradient(90deg, #5AC8FE 0%, #1affa3 100%);
+}
+@keyframes Animate-Illustrator {
+    from {
+    width: 10px;
+}
+to {
+    width: 82%}
+}@-webkit-keyframes Animate-Illustrator {
+    from {
+    width: 10px;
+}
+to {
+    width: 82%}
+}@-moz-keyframes Animate-Illustrator {
+    from {
+    width: 10px;
+}
+to {
+    width: 82%}
+}@-o-keyframes Animate-Illustrator {
+    from {
+    width: 10px;
+}
+to {
+    width: 82%}
+}
+#ui {
+  border-radius: 5px;
+    animation: Animate-ui 4s;
+    -webkit-animation: Animate-ui 8s;
+    -moz-animation: Animate-ui 4s;
+    -o-animation: Animate-ui 4s;
+    width: 72%;
+    height: 20px;
+    position: absolute;
+     background: linear-gradient(90deg, #5AC8FE 0%, #1affa3 100%);
+}
+@keyframes Animate-ui {
+    from {
+    width: 10px;
+}
+to {
+    width: 72%}
+}@-webkit-keyframes Animate-ui {
+    from {
+    width: 10px;
+}
+to {
+    width:72%}
+}@-moz-keyframes Animate-ui {
+    from {
+    width: 10px;
+}
+to {
+    width: 72%}
+}@-o-keyframes Animate-ui {
+    from {
+    width: 10px;
+}
+to {
+    width:72%}
+}
+   #Filmora {
+  border-radius: 5px;
+    animation: Animate-Filmora 4s;
+    -webkit-animation: Animate-Filmora 10s;
+    -moz-animation: Animate-Filmora 4s;
+    -o-animation: Animate-Filmora 4s;
+    width: 75%;
+    height: 20px;
+    position: absolute;
+     background: linear-gradient(90deg, #5AC8FE 0%, #1affa3 100%);
+}
+@keyframes Animate-Filmora {
+    from {
+    width: 10px;
+}
+to {
+    width: 75%}
+}@-webkit-keyframes Animate-Filmora {
+    from {
+    width: 10px;
+}
+to {
+    width:75%}
+}@-moz-keyframes Animate-Filmora {
+    from {
+    width: 10px;
+}
+to {
+    width: 75%}
+}@-o-keyframes Animate-Filmora {
+    from {
+    width: 10px;
+}
+to {
+    width: 75%}
+}#Msw {
+  border-radius: 5px;
+    animation: Animate-Msw 7s;
+    -webkit-animation: Animate-Msw 10s;
+    -moz-animation: Animate-Msw 7s;
+    -o-animation: Animate-Msw 7s;
+    width: 90%;
+    height: 20px;
+    position: absolute;
+     background: linear-gradient(90deg, #5AC8FE 0%, #1affa3 100%);
+}
+@keyframes Animate-Msw {
+    from {
+    width: 10px;
+}
+to {
+    width: 90%}
+}@-webkit-keyframes Animate-Msw {
+    from {
+    width: 10px;
+}
+to {
+    width: 90%}
+}@-moz-keyframes Animate-Msw {
+    from {
+    width: 10px;
+}
+to {
+    width: 90%}
+}@-o-keyframes Animate-Msw {
+    from {
+    width: 10px;
+}
+to {
+    width: 90%}
+}
+#Msp {
+  border-radius: 5px;
+    animation: Animate-Msp 8s;
+    -webkit-animation: Animate-Msp 10s;
+    -moz-animation: Animate-Msp 8s;
+    -o-animation: Animate-Msp 8s;
+    width: 95%;
+    height:20px;
+    position: absolute;
+     background: linear-gradient(90deg, #5AC8FE 0%, #1affa3 100%);
+}
+@keyframes Animate-Msp {
+    from {
+    width: 10px;
+}
+to {
+    width: 95%}
+}@-webkit-keyframes Animate-Msp {
+    from {
+    width: 10px;
+}
+to {
+    width: 95%}
+}@-moz-keyframes Animate-Msp {
+    from {
+    width: 10px;
+}
+to {
+    width: 95%}
+}@-o-keyframes Animate-Msp {
+    from {
+    width: 10px;
+}
+to {
+    width: 95%}
+}
+#Mse {
+  border-radius: 5px;
+    animation: Animate-Mse 10s;
+    -webkit-animation: Animate-Mse 10s;
+    -moz-animation: Animate-Mse 6s;
+    -o-animation: Animate-Mse 4s;
+    width: 80%;
+    height: 20px;
+    position: absolute;
+     background: linear-gradient(90deg, #5AC8FE 0%, #1affa3 100%);
+}
+@keyframes Animate-Mse {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+}@-webkit-keyframes Animate-Mse {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+}@-moz-keyframes Animate-Mse {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+}@-o-keyframes Animate-Mse {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+}
+.Skill-Area {
+    z-index: 1;
+    float: left;
+    
+    margin-top: -23px;
+    margin-left: 10px;
+    text-shadow: none;
+    color:#000000;
+    font-family: Roboto, Roboto;
+    font-size: 17px;
+}
+.PercentText {
+    z-index:3;
+    position: relative;
+    padding-right: 10px;
+    margin-top: 01px;
+    float: right;
+    text-shadow: none;
+    color: #000000;
+    font-family:Roboto, Roboto;
+    font-size: 15px;
+}
